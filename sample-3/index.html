@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- Logo -->
+
+                <!-- Circle Star Icon -->
+                <div class="col-4">
+
+                    <a href="index.html" class="text-decoration-none text-black">
+                        <div class="d-flex align-items-center">
+                            <span
+                                class="border border-2 border-black rounded-circle d-flex justify-content-center align-items-center me-1"
+                                style="width: 7vw; height: 7vw; max-width: 4rem; max-height: 4rem; min-width: 1rem; min-height: 1rem;">
+                                <i class="fa-solid fa-star" style="font-size: 2vw; max-font-size: 20px;"></i>
+                            </span>
+                            <!-- Brand Text -->
+                            <span class="text-wrap"
+                                style="font-size: 2rem; max-font-size: 60px; min-font-size: 60px;">ARTLST</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- Toggler Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar -->
+                <div class="col-8 collapse navbar-collapse justify-content-between" id="navbarContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fs-3">
+                        <li class="nav-item"><a class="nav-link" href="#">ARTICLES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">TOPICS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                    </ul>
+
+                    <!-- Subscribe & Search  -->
+                    <div class="d-flex align-items-center gap-2">
+                        <button class="subscribe-btn btn btn-outline-dark"><span class="fs-5">SUBSCRIBE</span></button>
+                        <button type="button"
+                            class="btn btn-outline-dark border border-black border-1 rounded-circle"><i
+                                class="fa fa-search fs-4"></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    <!-- Hero Section -->
+    <div class="container py-1">
+
+        <!-- Large Cards -->
+        <div class="row g-4">
+            <!-- Large Card Left -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <img src="img/img-1.png" class="card-img" alt="Lo-Fi Music">
+                    <div class="card-overlay d-flex flex-column justify-content-end">
+                        <div class="category">Culture | 6min read | 12.10.23</div>
+                        <h5 class="card-title">The Rise of Lo-Fi Music: A Soundtrack for Modern Life</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Large Card Right -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <img src="img/img-2.jpg" class="card-img" alt="Minimalist Design">
+                    <div class="card-overlay d-flex flex-column justify-content-end">
+                        <div class="category">Design | 7min read | 10.10.23</div>
+                        <h5 class="card-title">The Minimalist Revolution in Digital Design</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Small Cards -->
+        <div class="container text-center py-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-2">
+
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid" src="img/img-3.jpg" alt="Trends">
+                        <div class="card-overlay">
+                            <div class="card-title">
+                                <p class="text-uppercase category">
+                                    Lifestyle | 8min read | 9.10.23
+                                </p>
+                                <p class="h5 fs-6">
+                                    Finding Joy in Simplicity
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/img-4.jpg" alt="Trends">
+                        <div class="card-overlay">
+                            <div class="card-title">
+                                <p class="text-uppercase category">
+                                    Art | 8min read | 8.10.23
+                                </p>
+                                <p class="h5 fs-6">
+                                    How Creativity Shapes Identity
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/resize.jpg" alt="Trends">
+                        <div class="card-overlay">
+                            <div class="card-title">
+                                <p class="text-uppercase category">
+                                    Lifestyle | 8min read | 7.10.23
+                                </p>
+                                <p class="h5 fs-6">
+                                    A Cultural Movement
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/img-6.jpg" alt="Trends">
+                        <div class="card-overlay">
+                            <div class="card-title">
+                                <p class="text-uppercase category">
+                                    Art | 5min read | 6.10.23
+                                </p>
+                                <p class="h5 fs-6">
+                                    Function Meets Expression
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+    </div>
+
+    <!-- Profile Section -->
+    <div class="container">
+        <!-- Top Icons Row -->
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-2">
+
+                <!-- Person-1 -->
+                <div class="col">
+                    <div class="d-flex gap-2 mb-2">
+                        <img src="img/profile-pic.jpg" class="img-fluid profile-pic"
+                            alt="Harrison">
+                        <div>
+                            <p class="small fw-bold text-uppercase align-items-center mt">Harrison Cole</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Person-2 -->
+                <div class="col">
+                    <div class="d-flex gap-2 mb-2">
+                        <img src="img/profile-pic.jpg" class="img-fluid profile-pic"
+                            alt="Margot">
+                        <div>
+                            <p class="small fw-bold text-uppercase align-items-center mt">Margot Wren</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Person-3 -->
+                <div class="col">
+                    <div class="d-flex gap-2 mb-2">
+                        <img src="img/profile-pic.jpg" class="img-fluid profile-pic" alt="Jhon">
+                        <div>
+                            <p class="small fw-bold text-uppercase align-items-center mt">Jhon Victor</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+    </div>
+
+
+    <!-- Introduction Section -->
+    <section class="py-5">
+
+        <div class="container">
+            <div class="row align-items-center bg-dark rounded-4 overflow-hidden">
+
+                <!-- Left Image -->
+                <div class="col-md-6 p-0">
+                    <img src="img/img-7.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Who We Are Image">
+                </div>
+
+                <!-- Right Text -->
+                <div class="col-md-6 bg-dark text-white p-5">
+                    <h2 class="display-5 fw-bold">Who We Are</h2>
+                    <p class="mt-3 mb-4">At the intersection of creativity and culture, we craft spaces that inspire and
+                        connect. Learn more about our vision, our story, and the people behind the work.</p>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4">About Us</a>
+                </div>
+
+            </div>
+
+            <hr>
+
+        </div>
+
+    </section>
+
+    <!-- Explore Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Title -->
+            <h1 class="display-4 fw-bold mb-4">Explore More</h1>
+
+            <!-- Category Cards -->
+            <div class="row g-4 mb-5">
+
+                <!-- Art -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 overflow-hidden">
+                        <img src="img/img-v-1.jpg" class="card-img" alt="Art">
+                        <div class="card-img-overlay d-flex align-items-end p-2">
+                            <h6 class="text-white fw-semibold">Art</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Culture -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 overflow-hidden">
+                        <img src="img/Sukuna.jpg" class="card-img" alt="Culture">
+                        <div class="card-img-overlay d-flex align-items-end p-2">
+                            <h6 class="text-white fw-semibold">Culture</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 overflow-hidden">
+                        <img src="img/img-v-2.jpg" class="card-img" alt="Design">
+                        <div class="card-img-overlay d-flex align-items-end p-2">
+                            <h6 class="text-white fw-semibold">Design</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lifestyle -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 overflow-hidden">
+                        <img src="img/img-v-3.jpg" class="card-img" alt="Lifestyle">
+                        <div class="card-img-overlay d-flex align-items-end p-2">
+                            <h6 class="text-white fw-semibold">Lifestyle</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Partner Section -->
+    <div class="container py-1">
+
+        <div class="partner-section d-flex align-items-center">
+            <div class="partner-overlay">
+                <h2 class="mb-3">Partner with Us</h2>
+                <p>Showcase your brand to a creative, engaged audience. Let’s collaborate to amplify your vision and
+                    connect with culture-driven innovators.</p>
+                <button class="btn btn-apply mt-3">Apply Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-black py-5">
+        <div class="container text-white">
+            <div class="container text-center">
+                <div>
+
+                    <!-- Newsletter -->
+                    <div class="row">
+                        <div class="col mx-auto">
+                            <div>
+                                <div class="text-start">
+                                    <h4>Stay Inspired</h4>
+                                    <p>Join for exclusive insights, curated stories, and creative inspiration.</p>
+                                </div>
+
+                                <div>
+                                    <form class="d-flex mb-2">
+                                        <input type="email" class="form-control me-2" placeholder="Email Address">
+                                        <button class="btn btn-outline-light px-4">Submit</button>
+                                    </form>
+                                    <p class="text-start">
+                                        <small class="fw-lighter">* We’ll never sell your data</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Columns -->
+                    <div class="row">
+
+                        <!-- Menu 1 -->
+                        <div class="col">
+                            <div class="align-items-center">
+                                <h6 class="text-uppercase mt-4 mt-md-0">Home Variants</h6>
+                                <ul class="text-center list-unstyled">
+                                    <li><a class="text-decoration-none text-info" href="#">Home 1</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Home 2</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Home 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Menu 2 -->
+                        <div class="col">
+                            <div class="align-items-center">
+                                <h6 class="text-uppercase mt-4 mt-md-0">Home Variants</h6>
+                                <ul class="text-center list-unstyled">
+                                    <li><a class="text-decoration-none text-info" href="#">Article 1</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Article 2</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Article 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Menu 3 -->
+                        <div class="col">
+                            <div class="align-items-center">
+                                <h6 class="text-uppercase mt-4 mt-md-0">Home Variants</h6>
+                                <ul class="text-center list-unstyled">
+                                    <li><a class="text-decoration-none text-info" href="#">About</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Topics</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Menu 4 -->
+                        <div class="col">
+                            <div class="align-items-center">
+                                <h6 class="text-uppercase mt-4 mt-md-0">Home Variants</h6>
+                                <ul class="text-center list-unstyled">
+                                    <li><a class="text-decoration-none text-info" href="#">Webflow</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">License</a></li>
+                                    <li><a class="text-decoration-none text-info" href="#">Style Guide</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Watermark Section -->
+            <section class="py-3 d-flex justify-content-center align-items-center" style="min-height: 20vh;">
+                <a href="index.html" class="text-decoration-none">
+                    <div class="d-flex align-items-center text-secondary opacity-25"
+                        style="font-size: 10rem; font-weight: 700; flex-wrap: wrap;">
+                        <!-- Circle Star Icon -->
+                        <span
+                            class="border border-3 rounded-circle d-flex justify-content-center align-items-center mt-3 me-4"
+                            style="width: 20vw; height: 20vw; max-width: 150px; max-height: 150px; min-width: 80px; min-height: 80px;">
+                            <i class="fa-regular fa-star" style="font-size: 5vw; max-font-size: 60px;"></i>
+                        </span>
+
+                        <!-- Brand Name -->
+                        <span class="text-wrap"
+                            style="font-size: 10vw; max-font-size: 250px; min-font-size: 40px;">ARTLST</span>
+                    </div>
+                </a>
+            </section>
+
+            <!-- Bottom Bar -->
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-2">
+                <div class="social-icons mb-3 mb-md-0">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <div class="text-muted small">
+                    <p class="text-light">
+                        @ all rights reserved by ARTLST | Build by <a href="#"
+                            class="text-primary text-decoration-none">ASR</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

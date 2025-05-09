@@ -1,0 +1,101 @@
+/* Universal CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Styling */
+html,
+body {
+    background-color: #d5d9ce;
+    /* Light muted gray-green background */
+}
+
+/* Hero Section */
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+.category {
+    font-size: 0.75rem;
+    color: #ccc;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Profile Section */
+.profile-pic {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.mt {
+    margin-top: 30%;
+}
+
+
+/* Explore Section */
+.card-img {
+    object-fit: cover;
+    height: 100%;
+}
+
+
+/* Partner Section */
+.partner-section {
+    background: url('img/img-8.png') center center/cover no-repeat;
+    /* Replace with actual image path */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    padding: 3rem 3rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.partner-overlay {
+    background: rgba(55, 55, 55, 0.55);
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+.btn-apply {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 20px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-apply:hover {
+    background-color: #fff;
+    color: #000;
+}

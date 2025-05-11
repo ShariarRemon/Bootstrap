@@ -1,0 +1,136 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ .navbar-light {
+     background-color: #fffefa;
+ }
+
+ .navbar-brand {
+     font-weight: bold;
+     font-size: 1.5rem;
+ }
+
+ .nav-link {
+     font-weight: 500;
+     padding: 0.5rem 1rem;
+ }
+
+ .nav-category .nav-link:hover {
+     text-decoration: underline;
+ }
+
+ .subscribe-btn {
+     background-color: #000;
+     color: #fff;
+ }
+
+ .cart-count {
+     font-size: 0.75rem;
+     background: red;
+     color: white;
+     border-radius: 50%;
+     padding: 0 6px;
+     position: absolute;
+     top: -8px;
+     right: -8px;
+ }
+
+ .search-input {
+     border-radius: 8px;
+     border: 1px solid #ddd;
+ }
+
+ .search-input:focus {
+     box-shadow: none;
+     border-color: #ccc;
+ }
+
+
+ /* Hero Section */
+ .article-meta {
+     font-size: 0.9rem;
+     color: #888;
+ }
+
+ .author-img {
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+ .sidebar-article img {
+     width: 190px;
+     height: 166px;
+     border-radius: 8px;
+     object-fit: cover;
+ }
+
+
+ /* News & Highlight Section */
+ .news-meta {
+     font-size: 0.85rem;
+     color: gray;
+ }
+
+ .highlight-section {
+     background-color: #d33a2d;
+     color: white;
+ }
+
+ .highlight-section .author-img {
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+
+ /*  */
+ .newsletter {
+     background-color: #d3392d;
+     color: white;
+     padding: 3rem 2rem;
+     position: relative;
+ }
+
+ .newsletter::after {
+     content: "* NEWS * NEWS * NEWS *";
+     font-size: 5rem;
+     color: rgba(255, 255, 255, 0.1);
+     position: absolute;
+     top: 120px;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .read-more {
+     color: #d3392d;
+     font-weight: 500;
+     text-decoration: none;
+ }
+
+ .read-more:hover {
+     text-decoration: underline;
+ }
+
+ .section-title {
+     font-weight: 600;
+     font-size: 1.75rem;
+     margin-bottom: 2rem;
+ }
+
+
+ /* Footer Section */
+ .footer-images img {
+     height: 110px;
+     width: 150px;
+     object-fit: cover;
+     border-radius: 5px;
+ }
